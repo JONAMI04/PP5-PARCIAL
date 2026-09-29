@@ -1,0 +1,10 @@
+se utiliza state en el tamanio del plomero (pequenio, grande, y fuego)
+ya que se permite cambiar el estado del plomero
+
+se utiliza strategy para definir que ataque puede usar el plimero como
+saltar o fuego, permitiendo que cada forma de ataque determine su logica
+
+se utiliza observer para llevar la cuenta de las vidas y los puntos
+el plomero informa el cambio y los observadores decicen la accion en base
+a este mensaje
+
